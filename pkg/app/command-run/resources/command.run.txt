@@ -1,0 +1,8 @@
+#: run all generators in the current project directory
+$ gena run -a -v=4
+
+#: run specific generators in the current project directory
+$ gena run defaulter-gen -v=4
+
+#: run specific generators in specified project directory
+$ gena run defaulter-gen -v=4 -d ~/go/src/queueb.org/gena

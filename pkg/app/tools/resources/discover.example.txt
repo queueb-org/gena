@@ -1,0 +1,8 @@
+#: Discover annotated packages below one directory:
+$ gena tools discover ./pkg/config
+
+#: Search several directory trees for another annotation:
+$ gena tools discover --annotation '+example:generate=true' ./pkg ./internal
+
+#: Same using shortcuts
+$ gena t discover -a "+k8s:deepcopy-gen" ./pkg
