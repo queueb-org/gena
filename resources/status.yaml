@@ -1,0 +1,3 @@
+kind: Status
+apiVersion: v1
+status: Failure

@@ -1,0 +1,7 @@
+#: Gen-A (Generators Assistant)
+
+#: run default generators for the current project
+$ gena run -a -v=4
+
+#: run default generators for specified project directory
+$ gena run -a -v=4 -d /path/to/the/dir

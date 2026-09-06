@@ -1,0 +1,23 @@
+#: Technical
+.coverage*
+experiments/
+vendor
+.vscode
+.cspell
+
+#: temporary files
+/hack/update-codegen.sh
+/hack/update-openapi.sh
+/hack/.codegen-env.sh
+
+#: Bin dirs
+bin
+
+#: AI dirs
+.codex
+.claude
+dev
+
+# Examples
+/examples/app-1/**/zz_generated.**.go
+/examples/app-1/pkg/generated
